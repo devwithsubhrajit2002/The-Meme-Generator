@@ -17,21 +17,34 @@ export default function Meme() {
         getMemes()
     }, [])
     
+    // function getMemeImage() {
+    //     const randomNumber = Math.floor(Math.random() * allMemes.length)
+    //     const url = allMemes[randomNumber].url
+    //     setMeme(prevMeme => ({
+    //         ...prevMeme,
+    //         randomImage: url
+    //     }))
+    // }
+    
+    // function handleChange(event) {
+    //     const {name, value} = event.target
+    //     setMeme(prevMeme => ({
+    //         ...prevMeme,
+    //         [name]: value
+    //     }))
+    // }
     function getMemeImage() {
         const randomNumber = Math.floor(Math.random() * allMemes.length)
         const url = allMemes[randomNumber].url
-        setMeme(prevMeme => ({
-            ...prevMeme,
-            randomImage: url
-        }))
+        setMeme(prevMeme => Object.assign({}, prevMeme, { randomImage: url }))
     }
-    
+        
     function handleChange(event) {
-        const {name, value} = event.target
-        setMeme(prevMeme => ({
-            ...prevMeme,
-            [name]: value
-        }))
+      const name = event.target.name;
+      const value = event.target.value;
+      const updatedMeme = Object.assign({}, meme);
+      updatedMeme[name] = value;
+      setMeme(updatedMeme);
     }
     
     return (
