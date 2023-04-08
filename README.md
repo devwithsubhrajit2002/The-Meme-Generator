@@ -16,7 +16,6 @@ Open [http://localhost:9500](http://localhost:9500) to view it in your browser.
 Now Let's enjoy by generating memes.
 
 ![Screenshot (3054)](https://user-images.githubusercontent.com/108873732/230742206-89ac0c55-92d2-405b-8ea9-42c52e7bc409.png)
-
 ![Screenshot (3055)](https://user-images.githubusercontent.com/108873732/230742274-30746ec5-9103-4d18-928d-da0cc7ebb416.png)
 
 The page will reload when you make changes.\
