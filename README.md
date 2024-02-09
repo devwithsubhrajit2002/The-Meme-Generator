@@ -15,14 +15,8 @@ Open [http://localhost:9500](http://localhost:9500) to view it in your browser.
 
 Now Let's enjoy by generating memes.
 ![memer example](https://github.com/devwithsubhrajit2002/The-Meme-Generator/assets/108873732/e5306f0f-5053-4095-bc9e-cee23c8bf50e)
-
-
 ![meme example 2](https://github.com/devwithsubhrajit2002/The-Meme-Generator/assets/108873732/76a22407-92ad-4d63-b8df-612ebee28ee6)
 
-
-
-![Screenshot (3054)](https://user-images.githubusercontent.com/108873732/230742206-89ac0c55-92d2-405b-8ea9-42c52e7bc409.png)
-![Screenshot (3055)](https://user-images.githubusercontent.com/108873732/230742274-30746ec5-9103-4d18-928d-da0cc7ebb416.png)
 
 The page will reload when you make changes.\
 
